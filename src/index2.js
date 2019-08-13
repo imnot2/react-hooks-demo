@@ -11,7 +11,7 @@ function App() {
     setIsLoading(true);
     setTimeout(() => {
       setIsLoading(false);
-      setRandomNumber((Math.random() * 100) | 1);
+      setRandomNumber((Math.random() * 100) | 0);
     }, 2000);
   }
 
