@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "keywords": [],
-  "main": "src/index2.js",
+  "main": "src/hoc.js",
   "dependencies": {
     "react": "16.8.6",
     "react-dom": "16.8.6",
