@@ -27,7 +27,7 @@ class App extends React.Component {
     });
     setTimeout(() => {
       this.setState({
-        randomNumber: (Math.random() * 100) | 1,
+        randomNumber: (Math.random() * 100) | 0,
         isLoading: false
       });
     }, 2000);
