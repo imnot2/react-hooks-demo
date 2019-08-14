@@ -49,7 +49,7 @@ function withRandom(Comp) {
 
       return (
         <div>
-          <p>class component</p>
+          <h1>HOC component</h1>
           <Comp {...this.props} randomNumber={randomNumber} />
           <button disable={isLoading} onClick={this.handleClick}>
             {isLoading ? "loading..." : "refresh"}

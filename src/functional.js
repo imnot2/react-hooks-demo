@@ -37,7 +37,7 @@ function App() {
 
   return (
     <div>
-      <p>functional component</p>
+      <h1>functional component</h1>
       {randomNumber !== undefined ? <>randomNumber: {randomNumber}</> : null}
       <br />
       <button onClick={handleClick}>

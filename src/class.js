@@ -37,7 +37,7 @@ class App extends React.Component {
 
     return (
       <div>
-        <p>class component</p>
+        <h1>class component</h1>
         {randomNumber !== undefined ? <>randomNumber: {randomNumber}</> : null}
         <button disable={isLoading} onClick={this.handleClick}>
           {isLoading ? "loading..." : "refresh"}
