@@ -39,6 +39,7 @@ class WithRandom extends React.Component {
       <div>
         <h1>render props component</h1>
         {this.props.children(randomNumber)}
+        <br />
         <button disable={isLoading} onClick={this.handleClick}>
           {isLoading ? "loading..." : "refresh"}
         </button>
